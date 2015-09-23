@@ -10,9 +10,3 @@
 ### Links:
 #####[P2 Web View](http://p2.frankpbaldwin.com)
 #####[P2 Github] (https://github.com/frankbaldwin/P2)
-
-### Note:
-
-Currently having issues hosting on DigitalOcean. Did transfers a tad late, will check back to see if it resolves the issue.
-
-https://github.com/frankbaldwin/P2
