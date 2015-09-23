@@ -1,8 +1,3 @@
-<?php
-error_reporting(-1); # Report all PHP errors
-ini_set('display_errors', 1);
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +13,8 @@ ini_set('display_errors', 1);
 <body>
 	<header>
 		<h1>xkcd Password Generator</h1>
-		<h3>This simple program will generate a passcode between 4 to 8 of random words or animals in this case. <br/> The combination of words is hard to crack yet easy to remember.</h3>
+		<h3>This simple program will generate a passcode between 4 to 8 of random words or animals in this case. <br/>
+		The combination of words is hard to crack yet easy to remember.</h3>
 		<ol>
 			<li>Enter how many words you would like ( 4 - 8)</li>
 			<li>Click button to include numbers</li>
