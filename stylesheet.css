@@ -2,7 +2,7 @@
 
 body {
 	width: 75%;
-	margin: auto;
+	margin: 25px auto 15px auto;
 	font-family: Calibri, Arial;
 	text-align: center;
 	}
@@ -37,7 +37,8 @@ ol {
 pre{
 	display: inline;
 	font-size: 36px;
-	margin-top: 25px;
+	margin: 15px 10px;
 	background: black;
 	color: white;
+	padding: 0px 5px 0px 5px;
 	}

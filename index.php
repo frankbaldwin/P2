@@ -37,6 +37,6 @@
 		<label for='include_symbol'>Yes</label></p> <br/>
 		<input type='submit' value="Generate" name="submit" ><br/><br/>
 	</form>
-	
+		
 </body>
 </html>
