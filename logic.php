@@ -26,7 +26,7 @@ if ($min > $no_words || $max < $no_words || $no_words == $NotNumber){
 			$no_words = user_input($_POST["no_words"]);
 		}
 
-//Created an Array of animals to be used
+//Created an Array of words to be used
     $words = Array (
 	0 => 'al ',
 	1 => 'bee ',
@@ -56,12 +56,15 @@ if ($min > $no_words || $max < $no_words || $no_words == $NotNumber){
 	25 => 'zebra ',
 	);
 
+//Use array_random with perimeters $words array & user input $no_words user input
 		$pwd = array_rand($words, $no_words);
+//Iterate using foreach()
 		foreach ($pwd as $key => $value) {
 		$myPass = "$words[$value]";
+//Echo into html
 		echo '<pre>';
 		echo htmlentities(print_r($myPass, true));
 		echo '</pre>';
 		}
- 
+
 ?>
