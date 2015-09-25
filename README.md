@@ -10,4 +10,4 @@
 ### Links:
 #####[P2 Web View](http://p2.frankpbaldwin.com)
 #####[P2 Github] (https://github.com/frankbaldwin/P2)
-####$[P2 Walk Through] (https://github.com/frankbaldwin/P2/blob/master/Walk_through.swf)
+#####[P2 Walk Through] (https://github.com/frankbaldwin/P2/blob/master/Walk_through.swf)
