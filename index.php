@@ -7,7 +7,8 @@
 	 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="stylesheet.css">
-	<?php require 'logic.php'; ?>
+	 <script type="text/javascript" src="random.js"></script>
+
 </head>	
 
 <body>
@@ -24,19 +25,19 @@
 	</header>
 	
 	<!-- <form method='POST' action='index.php'> -->
-	<form method="post" action='index.php'>
+		<form method="post" action='index.php'>
 	
 		<label>How many words?</label><input type='text' id='no_words' name='no_words'><br/>
-		
 		<p>Include a number:
-		<input type='checkbox' id='include_number' name='number' value='yes' />
+		<input type='checkbox' id='number' class="number "name='number' value="true"/>
 		<label for='include_number'>Yes</label></p>
 		
 		<p>Include a symbol:
-		<input type='checkbox' id='include_symbol' name='symbols' value='yes'>
+		<input type='checkbox' id='symbol' class="symbol" name='symbol'value="true"/>
 		<label for='include_symbol'>Yes</label></p> <br/>
-		<input type='submit' value="Generate" name="submit" ><br/><br/>
+		 <div id="generate" class="button">Generate</div>
 	</form>
-		
+		</br>
+		<span class="password" id="password"></span>
 </body>
 </html>
